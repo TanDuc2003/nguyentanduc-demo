@@ -1,0 +1,102 @@
+body{
+    margin: 0 auto;
+}
+.header{
+    background-image: url('https://media-cdn.laodong.vn/Storage/NewsPortal/2021/5/26/913299/Ngan-Ha25.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 200px;
+    position: relative;
+    display: flex;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 0;
+    margin-right: 0;
+    background: orange;
+    height: 70px;
+    width: 300px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 0 10px white;
+
+}
+.menu a{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: none;
+    margin-left: 30px;
+    line-height: 50px;
+}
+.school-name{
+    margin: auto;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.name{
+    color: white;
+    font-size: 80px;
+    font-variant: small-caps;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0 0 10px orange;
+    border-bottom: 3px dotted orange ;
+}
+.slogan{
+    color: orange;
+    font-variant: small-caps;
+    font-size: 30px;
+    letter-spacing: 5px;
+    
+}
+.navigation{
+    display: flex;
+    background-color: orange;
+    height: 50px;
+    
+}
+.left-navigation{
+    margin: auto;
+    margin-left: 30px;
+}
+.left-navigation a{
+    color: black;
+    text-decoration: none;
+    font-variant: small-caps;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.right-navigation{
+    margin: auto;
+    margin-right: 30px;
+    
+} 
+.right-navigation a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+}
+.content{
+    height: calc(100vh - 350px);
+    display: flex;
+    background-color: aqua;
+}
+.left-content{
+    height: 100%;
+    width: 70%;
+    background-color: yellow;
+}
+.right-content{
+    height: 100%;
+    width: 30%;
+    
+}
+.footer{
+    height: 100px;
+    background-color: royalblue;
+
+}

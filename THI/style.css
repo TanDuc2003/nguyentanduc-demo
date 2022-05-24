@@ -1,0 +1,82 @@
+body{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #37AB34;
+}
+.header img {
+    margin-top: 10px;
+    margin-left: 150px;
+}
+.menu{
+    height: 43px;
+    background: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 10%);
+}
+.menu ul{
+   display: flex;
+   margin-left: 140px;
+   margin-top: -10px;
+}
+.menu ul li{
+    list-style: none;
+    margin-left:20px ;
+    line-height: 43px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    color: #37AB34;
+}
+input{
+    background-image: url("https://cdn-icons.flaticon.com/png/512/3059/premium/3059446.png?token=exp=1646742277~hmac=068857d99ca8252e46034d67b7890b22");
+    background-position: 10px;
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: 95%;
+    max-width: 570px;
+    border: 1px solid #d5d9db;
+    color: #222;
+    width: 100%;
+    height: 32px;
+    margin: 0;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 5%);
+    border-radius: 2px;
+}
+.content{
+    padding-top: 20px;
+    padding-left: 200px;
+    display: flex;
+}
+.content-left{
+    width: 570px;
+    height: 332px;
+    padding-left: 20px;
+}
+.content-right{
+    width: 570px;
+    height: 332px;
+    padding-left: 30px;
+}
+select{
+    max-width: 575px;
+    border: 1px solid #d5d9db;
+    color: #222;
+    width: 110%;
+    height: 33px;
+    margin: 0;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 5%);
+    border-radius: 2px;
+}
+label{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input:hover{
+    border: 1px solid aqua;
+}

@@ -1,0 +1,33 @@
+*{margin: 0;padding: e;box-sizing: border-box;}
+.sanpham img{
+    width: 230px;
+    height: 230px;
+    padding: 10px;
+    
+}
+.body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.sanpham{
+    width: 310px;
+    height: 310px;  
+    border: 0.5px solid black ;
+    text-align: center;
+    
+    border-radius: 20px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.name{
+    margin-top: 10px;
+    color: blue;
+    font-size: 25px;
+}
+.giacu{
+    color: black;
+    font-size: 25px;
+}
+.giamoi{
+    color: red ;
+}

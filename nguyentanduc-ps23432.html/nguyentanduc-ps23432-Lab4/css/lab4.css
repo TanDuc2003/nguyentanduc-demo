@@ -1,0 +1,31 @@
+div > em{
+    font-variant: small-caps;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+h2{
+    color: white;
+    text-shadow: 0 0 5px red;
+}
+.lab4bai1{
+    text-align: center;
+}
+.phan1{
+    color: red;
+}
+.phan2{
+    color: blue;
+}
+.phan3{
+    color: green;
+}
+b{
+    color: red;
+}
+.menu>a{
+    font-variant: small-caps;
+    color: blue;
+    text-decoration: none;
+}

@@ -1,0 +1,322 @@
+*{margin: 0;padding: e;box-sizing: border-box;}
+body{
+    background: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper{
+   width: 980px;
+   margin: auto;
+}
+.gioithieu{
+    height: 23px;
+    background: chartreuse;
+}
+.phone p{
+    color: #ffffff;
+    float:right;
+    font-weight: bold;
+    padding-right: 20px;
+} 
+.phone p a{
+    text-decoration: none;
+    color: green;
+}
+.gt p{
+    float:right;
+    padding-right: 80px;
+}
+.gt p a:hover{
+    color: white;
+}
+.gt p a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.menu{
+    height: 35px;
+    background: whitesmoke;
+    border: 0.3px solid rgba(26, 190, 67, 0.712);
+    position: sticky;
+    top: 0;
+    z-index: 1; 
+}
+
+.banner{
+    height: 205px;
+}
+.content{
+    height: 1000px;
+    background: white;
+    position: relative;
+}
+footer{
+    height: 300px;
+    background: white;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    line-height: 35px;
+    padding-left: 20px;
+}
+.menu ul li a{
+   font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu ul li a:hover{
+    color:red ;
+    font-weight: bold;
+    text-decoration: underline;
+}  
+.text{
+    width: 190px;
+    height: 25px;
+    padding-top: px;
+    margin-left: 100px;
+    background: white;
+    padding-left: 5px;
+    margin-top: 4px;    
+}
+.timkiem{
+    height: 25px;
+    margin-left: 5px;
+    color: white;
+    background: red;
+    border: 0.5px solid white;
+}
+.banner img{
+    width: 980px;
+    margin-top: 2px;
+}
+.td{
+    width: 980px;
+    height: 65px;
+    line-height: 65px;
+}
+.td2 p{
+    line-height: 65px;
+    text-align: center;
+    font-weight: bold;
+    color: green;
+    font-size: 20px;
+    text-shadow: 5px 5px 5px red;
+}
+.td p{
+    text-align: center;
+    font-weight: bold;
+    color: green;
+    font-size: 25px;
+    text-shadow: 5px 5px 5px red;
+}
+.sanpham{
+    width: 215px;
+    height: 285px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px 3px #888888;
+    border: 0.3px solid black;
+    text-align: center;
+    float: left;
+    margin-left: 24px;
+    background: rgb(219, 233, 219);
+}
+.sanpham p a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 17px;
+}
+.sanpham2 p a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 17px;
+}
+.sanpham img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin-top: 7px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+.sanpham img:hover{
+    width: 200px;
+    height: 200px;
+    opacity: 0.8;
+    transition-duration: 0.5s;
+}
+.giacu{
+    font-size: 15px;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+.giamoi{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+.sanpham2{
+    width: 215px;
+    height: 285px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px 3px #888888;
+    border: 0.3px solid black;
+    text-align: center;
+    float:left;
+    margin-left: 27px;
+    background: rgb(219, 233, 219);
+}
+.sanpham2 img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin-top: 7px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+.sanpham2 img:hover{
+    width: 200px;
+    height: 200px;
+    opacity: 0.8;
+    transition-duration: 0.5s;
+}
+.box{
+    width: 980px;
+    height: 290px;
+}
+.tdpk p{
+    color: green ;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 60px;
+}
+.phukien{
+    width: 180px;
+    height: 205px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px 3px #888888;
+    border: 0.3px solid black;
+    text-align: center;
+    float: left;
+    margin-left: 52px;
+    background: rgb(219, 233, 219);
+}
+.phukien p a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}
+.phukien img{
+    width: 150px;
+    height: 120px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+.phukien img:hover{
+    width: 170px;
+    height: 130px;
+    opacity: 0.8;
+    transition-duration: 0.5s;
+}
+.gia{
+    font-size: 18px;
+    color: rgb(65, 5, 65);
+    font-weight: bold;
+}
+.tdbanner{
+    margin-top: 20px;
+    padding-left: 40px;
+}
+.vechungtoi{
+    font-size: 20px;
+    font-weight: bold;
+}
+.tdbanner img{
+    width: 220px;
+    height: 70px;
+}
+.end p{
+    width: 50%;
+    height: 140px;
+    font-size: 15px;
+    float: left;
+}
+.hotro{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 180px;
+}
+.end ul li{
+    list-style: none;
+}
+.end ul li a{
+    margin-left:110px;
+    text-decoration: none;
+    color: green;
+
+}
+.end ul li a:hover{
+    color: red;
+    text-decoration: underline red;
+}
+.mess{
+    position: absolute;
+}
+.mess img{
+    width: 100px;
+    height: 100px;
+    bottom: 100px;
+    left: 40px;
+    position: fixed;
+    object-fit: cover;
+}
+.fb{
+    position: absolute;
+}
+.fb img{
+    width: 100px;
+    height: 100px;
+    left: 40px;
+    bottom: 200px;
+    position: fixed;
+    object-fit: cover;
+} 
+.sdt img{
+    width: 100px;
+    height: 100px;
+    left: 40px;
+    bottom: 300px;
+    position: fixed;
+    object-fit: cover;
+} 
+.pritave  {
+    bottom: 0;
+    background: chartreuse;
+    position: sticky;
+    text-align: center;
+    
+}
+.pritave p span{
+    font-weight: bold;
+    font-size: 16px;
+}
+.pritave p{
+    bottom: 0;
+    right: 100px;
+}
+.pritave p a{
+    text-decoration: none;
+    color: green;
+    font-size: 15px;
+}
+.pritave p a:hover{
+    text-decoration: underline;
+    color: red;
+}
